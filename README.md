@@ -1,2 +1,0 @@
-# satorSquare
-satorSquare
