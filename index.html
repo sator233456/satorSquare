@@ -1,114 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sator Square</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #f0f0f0; /* Color de fondo gris claro */
             display: flex;
-            justify-content: center;
             align-items: center;
+            justify-content: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            margin: 0;
         }
 
-        #sator-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-gap: 10px;
-            max-width: 400px;
-        }
-
-        .sator-cell {
-            padding: 10px;
+        #sator-square {
             text-align: center;
-            background-color: #ffffff;
-            border: 1px solid #ccc;
+            font-size: 24px;
+            color: #ff0000; /* Color rojo */
         }
 
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: #fff;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
+        .yellow-text {
+            color: #ffcc00; /* Color amarillo */
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Sator Square</h1>
-    </header>
-
-    <section>
-        <p>
-            The <strong>Sator Square</strong> is a magical square that contains a palindrome of five Latin words: SATOR, AREPO, TENET, OPERA, and ROTAS.
-            Each of these words can be read from left to right, right to left, top to bottom, or bottom to top.
-        </p>
-
-        <p>
-            This square has been found in different places throughout history, and various symbolic and mystical meanings have been attributed to it.
-        </p>
-
-        <p>
-            What secret does the Sator Square hold? Discover it by exploring its mysterious composition!
-        </p>
-    </section>
-
-    <div id="sator-container">
-        <div class="sator-cell">S</div>
-        <div class="sator-cell">A</div>
-        <div class="sator-cell">T</div>
-        <div class="sator-cell">O</div>
-        <div class="sator-cell">R</div>
-        <div class="sator-cell">A</div>
-        <div class="sator-cell">R</div>
-        <div class="sator-cell">E</div>
-        <div class="sator-cell">P</div>
-        <div class="sator-cell">T</div>
-        <div class="sator-cell">E</div>
-        <div class="sator-cell">N</div>
-        <div class="sator-cell">E</div>
-        <div class="sator-cell">T</div>
-        <div class="sator-cell">O</div>
-        <div class="sator-cell">P</div>
-        <div class="sator-cell">E</div>
-        <div class="sator-cell">R</div>
-        <div class="sator-cell">A</div>
-        <div class="sator-cell">O</div>
-        <div class="sator-cell">P</div>
-        <div class="sator-cell">E</div>
-        <div class="sator-cell">R</div>
-        <div class="sator-cell">A</div>
-        <div class="sator-cell">T</div>
-        <div class="sator-cell">A</div>
-        <div class="sator-cell">S</div>
-        <div class="sator-cell">O</div>
-        <div class="sator-cell">R</div>
+    <div id="sator-square">
+        <p class="yellow-text">S</p>
+        <p class="yellow-text">A</p>
+        <p class="yellow-text">T</p>
+        <p class="yellow-text">O</p>
+        <p class="yellow-text">R</p>
+        <br>
+        <p>A</p>
+        <p>R</p>
+        <p>E</p>
+        <p>P</p>
+        <p>O</p>
+        <br>
+        <p>T</p>
+        <p>E</p>
+        <p>N</p>
+        <p>E</p>
+        <p>T</p>
+        <br>
+        <p>O</p>
+        <p>P</p>
+        <p>E</p>
+        <p>R</p>
+        <p>A</p>
+        <br>
+        <p>R</p>
+        <p>O</p>
+        <p>T</p>
+        <p>A</p>
+        <p>S</p>
     </div>
-
-    <footer>
-        <p>&copy; 2023 Your Name</p>
-    </footer>
 
 </body>
 </html>
+
