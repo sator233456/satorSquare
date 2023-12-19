@@ -1,0 +1,173 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #f2f2f2; /* Fondo gris claro */
+    color: #333; /* Texto principal */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header {
+    background-color: #ffd700; /* Amarillo */
+    padding: 20px 0;
+}
+
+.site-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-image {
+    max-width: 100%;
+}
+
+.hero {
+    background-color: #3498db; /* Azul */
+    color: #fff; /* Texto blanco */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-paragraph {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero-cta {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Texto blanco */
+    background-color: #333; /* Fondo negro */
+    border-radius: 5px;
+}
+
+.button-primary {
+    background-color: #ffd700; /* Amarillo */
+    color: #333; /* Texto principal */
+}
+
+.about,
+.historical-connection,
+.enigma,
+.tokenomics,
+.cosmic-interpretation,
+.change-in-perspective,
+.community,
+.conclusion {
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Texto principal */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tokenomics-content {
+    margin-bottom: 30px;
+}
+
+.cta-cta {
+    margin-top: 20px;
+}
+
+.button-wide-mobile {
+    display: block;
+    width: 100%;
+}
+
+.site-footer {
+    background-color: #333; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-links,
+.footer-social-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a,
+.footer-social-links a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+}
+
+.footer-copyright {
+    font-size: 0.8em;
+}
+
+.circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #ccc; /* Color del círculo */
+    overflow: hidden;
+  }
+  
+  .circle-fill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip: rect(0px, 150px, 300px, 0px); /* Cambiar este valor para cambiar el porcentaje mostrado */
+    border-radius: 50%;
+  }
+  
+  #team {
+    background-color: red; /* Color del porcentaje del equipo */
+    transform: rotate(0deg);
+  }
+  
+  #marketing {
+    background-color: blue; /* Color del porcentaje de marketing */
+    transform: rotate(0deg);
+  }
+  
+  #listing {
+    background-color: green; /* Color del porcentaje de listado */
+    transform: rotate(0deg);
+  }
+  
+  #public-sale {
+    background-color: orange; /* Color del porcentaje de venta pública */
+    transform: rotate(0deg);
+  }
+  
+  .circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
